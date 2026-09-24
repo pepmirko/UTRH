@@ -1,0 +1,1 @@
+The repository connector used for this freeze accepts UTF-8 text writes. The canonical plan is therefore transported as base64 chunks and verified after decoding. Transport formatting is not part of the scientific object; decoded SHA-256 identity is authoritative.
