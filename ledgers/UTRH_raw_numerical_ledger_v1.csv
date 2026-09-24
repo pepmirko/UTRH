@@ -1,0 +1,1 @@
+record_id,analysis_id,source_id,doi,pmid,pmcid,exact_table_text_location,module_id,disease_or_condition,experimental_system,strain_host_route,cohort_or_replicate,endpoint_definition,units,rate_modifier,mean,sd,sem,n,q1,median,q3,scoring_interval_days,censoring_summary,transformation,derived_value_provenance,extraction_status,exclusion_reason,notes
