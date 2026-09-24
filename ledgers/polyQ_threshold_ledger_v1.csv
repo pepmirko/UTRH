@@ -1,0 +1,10 @@
+disease,gene,q0_primary,pathological_upper_bound,published_pathological_range,source_pmcid,source_location,freeze_note
+SCA1,ATXN1,39,91,39-91,PMC6563569,Table 1,pathological lower bound fixed as q0
+SCA2,ATXN2,33,500,33-500,PMC6563569,Table 1,pathological lower bound fixed as q0; interruptions possible
+SCA3,ATXN3,60,87,60-87,PMC6563569,Table 1,pathological lower bound fixed as q0
+SCA6,CACNA1A,20,33,20-33,PMC6563569,Table 1,pathological lower bound fixed as q0; prespecified stress-test locus
+SCA7,ATXN7,34,460,34-460,PMC6563569,Table 1,pathological lower bound fixed as q0
+SCA17,TBP,41,66,41-66,PMC6563569,Table 1,pathological lower bound fixed as q0; interruptions possible
+HD,HTT,36,121,36-121,PMC6563569,Table 1,pathological lower bound fixed as q0
+DRPLA,ATN1,48,93,48-93,PMC6563569,Table 1,pathological lower bound fixed as q0
+SBMA,AR,36,73,36-73,PMC6563569,Table 1,pathological lower bound fixed as q0
