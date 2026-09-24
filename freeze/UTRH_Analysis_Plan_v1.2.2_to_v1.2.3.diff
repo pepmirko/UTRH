@@ -1,0 +1,63 @@
+--- /mnt/data/UTRH_Analysis_Plan_v1.2.2_PRE_FREEZE.md	2026-09-24 16:59:51.472606057 +0000
++++ /mnt/data/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md	2026-09-24 17:57:18.540904798 +0000
+@@ -1,8 +1,8 @@
+-# UTRH Analysis Plan v1.2.2 — PRE-FREEZE CANDIDATE
++# UTRH Analysis Plan v1.2.3 — PRE-FREEZE CANDIDATE
+ 
+ **Project:** Universal Time-Rescaling Hypothesis (UTRH) in neurodegeneration  
+-**Version:** 1.2.2
+-**Status:** prospective analysis plan / preregistration draft; incorporates amendments A1–A14, audit corrections R1–R4, PF-01 (S0.6 identifiability split), and PF-02 (encoding-only correction), before numerical biological outcome extraction
++**Version:** 1.2.3
++**Status:** prospective analysis plan / preregistration draft; incorporates amendments A1–A14, audit corrections R1–R4, PF-01 (S0.6 identifiability split), and PF-02 (encoding-only correction), and PF-03 (freeze-reference/manifest consistency only), before numerical biological outcome extraction
+ **Freeze rule:** the hypotheses, eligibility rules, transformations, calibration rules, estimands, model hierarchy, stress tests and interpretation rules below become frozen before numerical outcome extraction for P1–P3.  
+ **Source basis:** two distinct, complementary audits are retained and are not represented as a single row-wise version history. **Cellular feasibility audit:** `UTRH_rapporto(1).md` / `UTRH_estrazione(1).csv` (61 selected modules, 31 primary sources; 42 original extraction fields + 9 audit fields = 51 columns; 2026-09-24). **Temporal-scaling audit v3:** `UTRH feasibility audit(1).md` / `UTRH_extraction_table(1).tsv` (45 measurement modules, 42 fields; 2026-09-24), which supplies the prion/polyQ/ALS scaling and falsification leads. Appendix A lists the complete 61-module cellular inclusion set; Appendix B lists the 45 v3 modules.  
+ **Primary audit verdict:** B — partially testable. The full cellular UTRH remains not currently testable on the qualified public corpus; the present plan tests identifiable local or population-level consequences of scalar temporal rescaling.
+@@ -920,7 +920,7 @@
+ # 16. Planned order of execution
+ 
+ 1. Complete the pre-freeze synthetic engineering validation S0.1–S0.6 without accessing biological outcome values; resolve any internal method contradiction revealed by those simulations and log it as a pre-freeze amendment.
+-2. Freeze Analysis Plan v1.2.2, archive its hash and third-party timestamp, then rerun the unchanged S0.1–S0.6 code as the formal Stage 0 verification before any biological outcome extraction.
++2. Freeze Analysis Plan v1.2.3, archive its hash and third-party timestamp, then rerun the unchanged S0.1–S0.6 code as the formal Stage 0 verification before any biological outcome extraction.
+ 3. Reproduce the §7.0 Jenkins benchmark-source checklist from archived files; invoke the Stroustrup fallback only if that gate fails.
+ 4. Run P1 benchmark.
+ 5. Harvest prion summary data under the frozen extraction schema, including scoring interval and endpoint metadata.
+@@ -978,7 +978,7 @@
+ 
+ The freeze becomes effective only when all of the following have occurred before numerical outcome extraction for P1–P3:
+ 
+-1. the canonical analysis-plan file has a SHA-256 recorded in `UTRH_FREEZE_MANIFEST_v1.2.json`;
++1. the canonical analysis-plan file has a SHA-256 recorded in `UTRH_FREEZE_MANIFEST_v1.2.3.json`;
+ 2. every support file designated as frozen input has its SHA-256 recorded in that manifest;
+ 3. the empty/raw numerical ledger and the external polyQ-threshold ledger have been created and hashed;
+ 4. the complete freeze bundle has been deposited in an external repository that supplies a third-party timestamp (for example OSF, Zenodo, or an equivalent immutable/versioned repository);
+@@ -994,7 +994,7 @@
+ 
+ At minimum, the external freeze bundle must contain or cryptographically identify:
+ 
+-- `UTRH_Analysis_Plan_v1.2_PRE_FREEZE.md`;
++- `UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md`;
+ - the 61-module / 51-column cellular extraction table (`UTRH_estrazione(1).csv`);
+ - the 45-module / 42-column temporal-scaling extraction table (`UTRH_extraction_table(1).tsv`);
+ - the corresponding audit reports used to define provenance and eligibility;
+@@ -1031,7 +1031,7 @@
+ 
+ ## 19.4 No-outcome-extraction declaration
+ 
+-At the time this v1.2 candidate was prepared, the plan contains feasibility metadata, published methodological facts, pathological repeat ranges used only for support preflight, and source-verification information. It does not contain harvested P1–P3 numerical outcomes used for model fitting. The raw numerical ledger must remain empty of outcome values until the external freeze is effective.
++At the time this v1.2.3 candidate was prepared, the plan contains feasibility metadata, published methodological facts, pathological repeat ranges used only for support preflight, and source-verification information. It does not contain harvested P1–P3 numerical outcomes used for model fitting. The raw numerical ledger must remain empty of outcome values until the external freeze is effective.
+ 
+ ---
+ 
+@@ -1216,3 +1216,12 @@
+ ## PF-02 — Non-substantive encoding correction
+ 
+ Before freeze, two malformed control-character renderings were repaired: the shape-resolution symbol in §13.1 is rendered as `\delta_\beta`, and the P2a slope in §16 step 6 is rendered as `\beta_1`. No hypothesis, threshold, model, dataset role, or decision rule changed. The high-power synthetic pre-freeze verification triggered no further methodological amendment.
++
++## PF-03 — Non-substantive freeze-reference and manifest consistency correction
++
++**Timestamp:** 2026-09-24T19:51:00+02:00  
++**Trigger:** repository initialization/freeze audit only; no numerical biological outcome extraction had begun.  
++**Reason:** §19 still contained two stale v1.2 filenames while the operative candidate was v1.2.2, and the v1.2.2 manifest did not enumerate the source-basis audit/extraction files that §19.2 requires to be contained or cryptographically identified.  
++**Change:** bump the freeze candidate to v1.2.3; correct the canonical plan/manifest filenames in §19; expand the freeze manifest to cryptographically identify both source-basis audit reports, both canonical machine-readable extraction tables, the v10.4 theoretical baseline package, the empty biological-outcome ledger, the polyQ threshold ledger, Stage 0 code/results, and the plan itself.  
++**Effect on scientific hypotheses:** none. No hypothesis, inclusion criterion, threshold, model, estimand, dataset role, biological result, or decision rule changed.
++
