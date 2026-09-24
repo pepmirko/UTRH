@@ -1,0 +1,51 @@
+{
+  "bundle_version": "v1.2.3_PRE_FREEZE",
+  "status": "PRE-FREEZE_PENDING_GITHUB_FREEZE_COMMIT",
+  "generated_utc": "2026-09-24T17:51:00+00:00",
+  "biological_outcome_rows_before_freeze": 0,
+  "canonical_plan_reconstruction": {
+    "encoding": "base64 concatenation of parts in lexical order, then base64 decode",
+    "canonical_filename": "UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md",
+    "canonical_sha256": "3b16f919ed3792d70266585d1b627793a074edb39fb8a187576d32fb04e80ffd",
+    "canonical_bytes": 86403,
+    "parts": [
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part01","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part01","sha256":"c95ef46287fd2a4eb0f041e60243e794093eeafba56e1a6c0dc5821a2efda3e9","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part02","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part02","sha256":"1bddd59401c815c4cff43409389d33503cb0c582dc2c33c7937a145b96d35919","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part03","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part03","sha256":"87afd6cb2fdf58f98d80f085be04f3f0e3da64a8d2110b8694077b767e0e3c0b","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part04","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part04","sha256":"b04c5477865585f81e1ae2171c85b6ecf2b9cdcad0f3fd1b9005bdd552e7e1e3","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part05","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part05","sha256":"28cde9f917dc237e705aeca5e8f03bbeb2730ed3123bf51020e2fa44978709b1","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part06","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part06","sha256":"f157fb55c273dee9a079fadf51209914b4870f42c616a3b66d55b981d05a953e","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part07","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part07","sha256":"e451e1f7a70e5397c47d3355db3f3412792f46826425b9b91e4d265ef97640a3","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part08","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part08","sha256":"4a73374a34ebf43db182cd66ab7bf2fae56717410aaea879987de29e69e9b8d7","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part09","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part09","sha256":"17c0cebf2a47eb7f89f638fb31c07c86d022404a2e5e246eff628aeeff269128","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part10","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part10","sha256":"23431d258af3184d8f6fa99b49554795f71b9d24df9d24c58bdeaa3f01f58c16","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part11","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part11","sha256":"736ec264a0a6a25295d328a8d14c414dd34b9affbaf6a7fad717f8ac2b0b3ea3","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part12","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part12","sha256":"6ed3fb010a83c3d154352ec98cf3701eb808953044043e509f5cdd32c9d02f79","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part13","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part13","sha256":"767bf4c04a53760a945cb8a237342d1282edb5437575293257fa29c806e70434","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part14","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part14","sha256":"482c1f670ec26c586bcd867e5de514480f2878dc9eec1b4100a19b4cb4113fe9","bytes":8001},
+      {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part15","repository_path":"freeze/payload/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md.b64.part15","sha256":"1a1d0acc5501f3a1c2233cefdc8112a40c252d638c08c7e10510ac52c3a79080","bytes":3205}
+    ]
+  },
+  "frozen_artifacts": [
+    {"name":"UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md","repository_path_or_identifier":"preregistration/UTRH_Analysis_Plan_v1.2.3_PRE_FREEZE.md","role":"canonical_plan","representation":"PAYLOAD_CHUNKED_BASE64","sha256":"3b16f919ed3792d70266585d1b627793a074edb39fb8a187576d32fb04e80ffd","bytes":86403},
+    {"name":"utrh_stage0_validation.py","repository_path_or_identifier":"stage0/utrh_stage0_validation.py","role":"stage0_code","representation":"UPLOADED_TEXT","sha256":"3cf08f96f5b763dfe4725fb23743ee1fa781010fcf138f94a98c082b1bb916ee","bytes":17679},
+    {"name":"run_stage0_highpower.py","repository_path_or_identifier":"stage0/run_stage0_highpower.py","role":"stage0_code","representation":"UPLOADED_TEXT","sha256":"5e343eaa61f121edb817daf8ce8ab1a8017364b5f1b5cf6b238adf6ba8d9f5d8","bytes":1792},
+    {"name":"UTRH_Stage0_HighPower_results.csv","repository_path_or_identifier":"stage0/UTRH_Stage0_HighPower_results.csv","role":"stage0_result","representation":"UPLOADED_TEXT","sha256":"38705b2f57176fffd5cff2bad061e292b743a7d9245f039bc88c2862426864f1","bytes":1959},
+    {"name":"UTRH_Stage0_HighPower_status.csv","repository_path_or_identifier":"stage0/UTRH_Stage0_HighPower_status.csv","role":"stage0_result","representation":"UPLOADED_TEXT","sha256":"2eb4e12b56fd8bf753716d69a7e08809bbe80309b010688599df85c5cc87f41a","bytes":1271},
+    {"name":"UTRH_Stage0_HighPower_Verification_Report_v0.2.md","repository_path_or_identifier":"stage0/UTRH_Stage0_HighPower_Verification_Report_v0.2.md","role":"stage0_report","representation":"UPLOADED_TEXT","sha256":"0346ab684bd89c66577330f07a8fb4b9e5a9c91f2d8928842abc4d86555b87c6","bytes":6329},
+    {"name":"UTRH_Stage0_PreFreeze_Verification_Report_v0.1.md","repository_path_or_identifier":"stage0/UTRH_Stage0_PreFreeze_Verification_Report_v0.1.md","role":"stage0_report","representation":"UPLOADED_TEXT","sha256":"b36b8d7dbc693a1e200ac72929701f56b7d4be475577b7ff45b7e1534105bc03","bytes":5264},
+    {"name":"polyQ_threshold_ledger_v1.csv","repository_path_or_identifier":"ledgers/polyQ_threshold_ledger_v1.csv","role":"frozen_input","representation":"UPLOADED_TEXT","sha256":"6457f74203b3de18b8717d3cfad99b26bc3854d5ed1c229a9d4146c64c018403","bytes":920},
+    {"name":"UTRH_raw_numerical_ledger_v1.csv","repository_path_or_identifier":"ledgers/UTRH_raw_numerical_ledger_v1.csv","role":"frozen_input","representation":"UPLOADED_TEXT","sha256":"9958f344b44683407d79f4a5916275bcd62464d5eedd0005ae7c2886899414f9","bytes":351},
+    {"name":"UTRH_Analysis_Plan_v1.2.2_to_v1.2.3.diff","repository_path_or_identifier":"freeze/UTRH_Analysis_Plan_v1.2.2_to_v1.2.3.diff","role":"amendment_diff","representation":"UPLOADED_TEXT","sha256":"31159ac86c0750a89b38103367825e7a00e696c67f1ffa014f94d81d335fb63b","bytes":6612},
+    {"name":"UTRH_rapporto(1).md","repository_path_or_identifier":"source_basis/UTRH_rapporto(1).md","role":"source_basis","representation":"HASH_ONLY","sha256":"e39f1e56b42d787f5113dd447a083b2ce78e2592b8c6ffb8bbfe0ec574b256e7","bytes":51095},
+    {"name":"UTRH_estrazione(1).csv","repository_path_or_identifier":"source_basis/UTRH_estrazione(1).csv","role":"source_basis","representation":"HASH_ONLY","sha256":"e2491165ec1d433270135c68ae2f111cf888cb334726998472cea67f2898eb2a","bytes":99619},
+    {"name":"UTRH feasibility audit(1).md","repository_path_or_identifier":"source_basis/UTRH feasibility audit(1).md","role":"source_basis","representation":"HASH_ONLY","sha256":"6a7dea5a33e6de9ee6657fadacc524fb3ec634dd8251074ce5fef28cdf89bdd5","bytes":36669},
+    {"name":"UTRH_extraction_table(1).tsv","repository_path_or_identifier":"source_basis/UTRH_extraction_table(1).tsv","role":"source_basis","representation":"HASH_ONLY","sha256":"71d2fec8c9bc404972ef7c0e7edc92a54d3ed68f5b8641d07b1c33e4fa5045e6","bytes":72865},
+    {"name":"NDD_package_v10.4.zip","repository_path_or_identifier":"theory/NDD_package_v10.4.zip","role":"theoretical_baseline","representation":"HASH_ONLY","sha256":"e1dd5fdb628adbf2623c5e6e15d085bdd3133e78a6d4c299abd64f84ab202edc","bytes":880712}
+  ],
+  "notes": [
+    "HASH_ONLY source-basis/theory artifacts are cryptographically identified by exact SHA-256 and byte count as allowed by Analysis Plan §19.2; they are not re-encoded in the GitHub freeze payload.",
+    "The canonical analysis plan bytes are fully deposited in reconstructible base64 parts; reconstruction must match canonical_sha256 before use.",
+    "No P1-P3 numerical biological outcome values were extracted before this manifest."
+  ]
+}
