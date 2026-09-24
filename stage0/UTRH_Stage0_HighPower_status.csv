@@ -1,0 +1,11 @@
+test,scenario,status,R,seed,note
+S0.1,weibull,PASS,100,20261001,coverage95=0.965 (Wilson 0.930-0.983); false shape reject=0.070 (0.034-0.137)
+S0.1,lognormal,PASS,100,20261002,coverage95=0.960 (Wilson 0.923-0.980); false shape reject=0.050 (0.022-0.112)
+S0.1,loglogistic,PASS,100,20261003,coverage95=0.940 (Wilson 0.898-0.965); false shape reject=0.060 (0.028-0.125)
+S0.1,gamma,PASS,100,20261004,coverage95=0.945 (Wilson 0.904-0.969); false shape reject=0.060 (0.028-0.125)
+S0.2,weibull shape 1.05 vs 2.20,PASS,500,20262002,detection=0.980 (Wilson 0.964-0.989); alt held-out win=0.980
+S0.3,"early factor 0.60, late factor 1.40",PASS,5000,20262003,interaction detect=1.0000 (Wilson 0.9992-1.0000); held-out win=1.0000
+S0.4,mixture weights 0.80/0.20 vs 0.30/0.70,PASS,5000,20262004,post-alignment rejection=1.0000 (Wilson 0.9992-1.0000); median |log CV ratio|=0.282
+S0.5,equal Weibull modules,PASS,1000,20262005,mean log-scale=0.0011; false nonzero=0.066 (Wilson 0.052-0.083)
+S0.6,fixed common grid,PASS,5000,20262006,S0.6a identifiability stress: unadjusted false signal=0.733 (0.721-0.745); median VIF=715.1; identifiable fraction=0.000
+S0.6,varying grid,PASS,5000,20262006,S0.6b: identifiable fraction=1.000; adjusted FP=0.010 (0.008-0.013); median adjusted beta1=-0.181
