@@ -1,0 +1,11 @@
+test,scenario,R_requested,replicates_ok,fit_failures,bias_logscale_m1,bias_logscale_m2,rmse_logscale,coverage95,spurious_shape_reject_rate,seed,detection_rate_LRT_and_testLL,LRT_reject_rate,median_test_loglik_gain_per_obs,fraction_alt_better_testLL,interaction_reject_rate,fraction_phase_specific_better,KS_reject_after_scale_alignment,median_abs_log_CV_ratio,median_abs_log_IQRratio_ratio,mean_logscale_estimate,sd_logscale_estimate,false_nonzero_rate_95CI,unadjusted_spurious_reject_rate,median_unadjusted_beta1,median_VIF,fraction_VIF_le_5,median_corr_x_g,adjusted_reject_rate_all,adjusted_reject_rate_if_identifiable,median_adjusted_beta1_if_identifiable,replicates
+S0.1,weibull,100,100.0,0.0,0.011541466655878163,0.004619635294844521,0.06071181036580961,0.965,0.07,20261001,,,,,,,,,,,,,,,,,,,,,
+S0.1,lognormal,100,100.0,0.0,0.0037132222516749,-0.0034856777495859493,0.04752809482543779,0.96,0.05,20261002,,,,,,,,,,,,,,,,,,,,,
+S0.1,loglogistic,100,100.0,0.0,0.0018343115124341376,-0.008581069493668842,0.046886431677307897,0.94,0.06,20261003,,,,,,,,,,,,,,,,,,,,,
+S0.1,gamma,100,100.0,0.0,0.003924881857750154,-0.0054473498997174305,0.0531720178108566,0.945,0.06,20261004,,,,,,,,,,,,,,,,,,,,,
+S0.2,weibull shape 1.05 vs 2.20,500,500.0,,,,,,,20262002,0.98,1.0,0.07494835939572814,0.98,,,,,,,,,,,,,,,,,
+S0.3,"early factor 0.60, late factor 1.40",5000,,,,,,,,20262003,,,0.18242863796004252,,1.0,1.0,,,,,,,,,,,,,,,
+S0.4,mixture weights 0.80/0.20 vs 0.30/0.70,5000,,,,,,,,20262004,,,,,,,1.0,0.2815191672460541,0.41228735464299904,,,,,,,,,,,,
+S0.5,equal Weibull modules,1000,1000.0,0.0,,,,,,20262005,,,,,,,,,,0.0011121813531374727,0.05424040118194197,0.066,,,,,,,,,
+S0.6,fixed common grid,5000,,,,,,,,20262006,,,,,,,,,,,,,0.733,-0.8202721462470546,715.0982520656917,0.0,0.9993005507676109,0.1006,,,5000.0
+S0.6,varying grid,5000,,,,,,,,20262006,,,,,,,,,,,,,0.5264,-0.7227091363254662,1.824199529773653,1.0,0.6721713714827336,0.01,0.01,-0.18056353760644855,5000.0
