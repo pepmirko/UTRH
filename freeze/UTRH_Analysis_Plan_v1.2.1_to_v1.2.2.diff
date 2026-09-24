@@ -1,0 +1,45 @@
+--- UTRH_Analysis_Plan_v1.2.1_PRE_FREEZE.md
++++ UTRH_Analysis_Plan_v1.2.2_PRE_FREEZE.md
+@@ -1,8 +1,8 @@
+-# UTRH Analysis Plan v1.2 — PRE-FREEZE CANDIDATE
++# UTRH Analysis Plan v1.2.2 — PRE-FREEZE CANDIDATE
+ 
+ **Project:** Universal Time-Rescaling Hypothesis (UTRH) in neurodegeneration  
+-**Version:** 1.2  
+-**Status:** prospective analysis plan / preregistration draft; incorporates amendments A1–A14 plus the pre-freeze audit corrections R1–R4 before numerical outcome extraction  
++**Version:** 1.2.2
++**Status:** prospective analysis plan / preregistration draft; incorporates amendments A1–A14, audit corrections R1–R4, PF-01 (S0.6 identifiability split), and PF-02 (encoding-only correction), before numerical biological outcome extraction
+ **Freeze rule:** the hypotheses, eligibility rules, transformations, calibration rules, estimands, model hierarchy, stress tests and interpretation rules below become frozen before numerical outcome extraction for P1–P3.  
+ **Source basis:** two distinct, complementary audits are retained and are not represented as a single row-wise version history. **Cellular feasibility audit:** `UTRH_rapporto(1).md` / `UTRH_estrazione(1).csv` (61 selected modules, 31 primary sources; 42 original extraction fields + 9 audit fields = 51 columns; 2026-09-24). **Temporal-scaling audit v3:** `UTRH feasibility audit(1).md` / `UTRH_extraction_table(1).tsv` (45 measurement modules, 42 fields; 2026-09-24), which supplies the prion/polyQ/ALS scaling and falsification leads. Appendix A lists the complete 61-module cellular inclusion set; Appendix B lists the 45 v3 modules.  
+ **Primary audit verdict:** B — partially testable. The full cellular UTRH remains not currently testable on the qualified public corpus; the present plan tests identifiable local or population-level consequences of scalar temporal rescaling.
+@@ -852,7 +852,7 @@
+ - shape diagnostics do not contradict scaling;
+ - a more flexible shape model does not yield a material, reproducible improvement.
+ 
+-**Triviality exclusion.** Define the preregistered near-exponential resolution as \(\delta_eta=0.10\). If the estimated common shape parameter has a 95% interval wholly contained within \([0.90,1.10]\), the result is labelled **SHAPE TEST UNINFORMATIVE (NEAR-EXPONENTIAL REGIME)** rather than SCALAR SCALING ADEQUATE LOCALLY. In this regime, shape invariance is close to a family property and discrimination must rest on scale-relation tests (P2b, P3) or non-survival anchors. The alternative thresholds 0.05 and 0.15 are reported only as sensitivity analyses and cannot change the primary label.
++**Triviality exclusion.** Define the preregistered near-exponential resolution as \(\delta_\beta=0.10\). If the estimated common shape parameter has a 95% interval wholly contained within \([0.90,1.10]\), the result is labelled **SHAPE TEST UNINFORMATIVE (NEAR-EXPONENTIAL REGIME)** rather than SCALAR SCALING ADEQUATE LOCALLY. In this regime, shape invariance is close to a family property and discrimination must rest on scale-relation tests (P2b, P3) or non-survival anchors. The alternative thresholds 0.05 and 0.15 are reported only as sensitivity analyses and cannot change the primary label.
+ 
+ ## 13.2 Cross-disease success
+ 
+@@ -920,11 +920,11 @@
+ # 16. Planned order of execution
+ 
+ 1. Complete the pre-freeze synthetic engineering validation S0.1–S0.6 without accessing biological outcome values; resolve any internal method contradiction revealed by those simulations and log it as a pre-freeze amendment.
+-2. Freeze Analysis Plan v1.2.1, archive its hash and third-party timestamp, then rerun the unchanged S0.1–S0.6 code as the formal Stage 0 verification before any biological outcome extraction.
++2. Freeze Analysis Plan v1.2.2, archive its hash and third-party timestamp, then rerun the unchanged S0.1–S0.6 code as the formal Stage 0 verification before any biological outcome extraction.
+ 3. Reproduce the §7.0 Jenkins benchmark-source checklist from archived files; invoke the Stroustrup fallback only if that gate fails.
+ 4. Run P1 benchmark.
+ 5. Harvest prion summary data under the frozen extraction schema, including scoring interval and endpoint metadata.
+-6. Recompute the P2a design-only MDE before viewing \(\beta_1\); apply the §8.2 informativeness gate.
++6. Recompute the P2a design-only MDE before viewing \(\beta_1\); apply the §8.2 informativeness gate.
+ 7. Run P2a shape invariance.
+ 8. Run P2b only after reference-provenance and ID50 gates are satisfied; otherwise label it descriptive/not identifiable as specified.
+ 9. Run P2c only if commensurable phase summaries exist; NOT IDENTIFIABLE is an expected admissible endpoint.
+@@ -1212,3 +1212,7 @@
+ **Reason:** under a fixed common observation grid, the nuisance term \(g_m=\log(\Delta/\bar T_m)\) is structurally near-collinear with a monotone rate modifier because both are functions of the same scalar timescale. The original S0.6 simultaneously required VIF > 5 to return NOT IDENTIFIABLE and required an adjusted \(\beta_1\) estimate compatible with zero. These requirements cannot both be satisfied in the fixed-grid case.  
+ **Change:** S0.6 is split into S0.6a (fixed-grid identifiability stress test; correct outcome may be NOT IDENTIFIABLE) and S0.6b (heterogeneous-grid adjustment validation; adjusted false-positive behavior is evaluated only when VIF ≤ 5). §16 is updated so that this synthetic engineering preflight precedes the formal freeze, while the unchanged code must be rerun after freeze before biological data analysis.  
+ **Effect on scientific hypotheses:** none. No inclusion criterion, biological estimand, success criterion for P1–P3, or biological dataset was changed.
++
++## PF-02 — Non-substantive encoding correction
++
++Before freeze, two malformed control-character renderings were repaired: the shape-resolution symbol in §13.1 is rendered as `\delta_\beta`, and the P2a slope in §16 step 6 is rendered as `\beta_1`. No hypothesis, threshold, model, dataset role, or decision rule changed. The high-power synthetic pre-freeze verification triggered no further methodological amendment.
