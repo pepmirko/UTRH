@@ -1,0 +1,42 @@
+name: P1 fetch Jenkins source data
+
+on:
+  push:
+    paths:
+      - '.github/workflows/p1_fetch_jenkins.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch official eLife Figure 5 source data
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p p1_source
+          curl --fail --location --retry 3 \
+            'https://cdn.elifesciences.org/articles/56580/elife-56580-fig5-data1-v1.xlsx' \
+            -o p1_source/elife-56580-fig5-data1-v1.xlsx
+          if curl --fail --location --retry 2 \
+            'https://cdn.elifesciences.org/articles/56580/elife-56580-supp5-v1.docx' \
+            -o p1_source/elife-56580-supp5-v1.docx; then
+            true
+          else
+            curl --fail --location --retry 3 \
+              'https://cdn.elifesciences.org/articles/56580/elife-56580-supp5.docx' \
+              -o p1_source/elife-56580-supp5.docx
+          fi
+          sha256sum p1_source/* | tee p1_source/SHA256SUMS.txt
+          file p1_source/* | tee p1_source/FILETYPES.txt
+          ls -l p1_source
+      - name: Upload immutable source artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: p1-jenkins-official-source
+          path: p1_source/
+          if-no-files-found: error
+          retention-days: 90
